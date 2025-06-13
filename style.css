@@ -143,19 +143,22 @@ footer {
   margin-top: 40px;
 }
 
-.lebenslauf-text {
-  flex: 1;
-  min-width: 300px;
-  text-align: center;
+.lebenslauf-kopf {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
-.lebenslauf-bild {
-  flex-shrink: 0;
+.lebenslauf-kopf h2 {
+  margin: 0;
 }
 
-.lebenslauf-bild img {
-  width: 200px;
+.profilbild-rechts {
+  width: 180px;
   height: auto;
   border-radius: 10px;
+  margin-left: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
