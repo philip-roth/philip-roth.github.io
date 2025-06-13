@@ -239,15 +239,12 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.intro-image {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.intro-image img {
-  width: 100%;
-  max-width: 600px;
+.textblock-image {
+  display: block;
+  max-width: 100%;
   height: auto;
+  margin: 2rem auto;
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
+
