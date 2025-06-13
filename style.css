@@ -86,17 +86,18 @@ footer {
 }
 
 .profilbild-links {
-  width: 180px; /* hier Bildgröße einstellen */
+  width: 360px; /* hier Bildgröße einstellen */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   flex-shrink: 0; /* verhindert, dass das Bild skaliert wird */
 }
 
-.lebenslauf-text {
-  flex: 1;
-  min-width: 250px;
-}
+
+  .lebenslauf-text {
+    text-align: center;
+    padding: 0 15px;
+  }
 
 
 .image-divider {
