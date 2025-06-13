@@ -192,4 +192,17 @@ footer {
     margin-top: 15px;
     width: 120px;
   }
+
+  .image-round {
+  text-align: center;
+  margin: 50px 0;
 }
+  
+.image-round img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
