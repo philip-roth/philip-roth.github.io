@@ -13,17 +13,20 @@
       color: #333;
       background-color: #f4f4f4;
     }
+
     .container {
       max-width: 960px;
       margin: 0 auto;
       padding: 1.5rem;
     }
+
     header {
       background: #722191;
       color: white;
       padding: 2rem 0;
       text-align: center;
     }
+
     nav ul {
       list-style: none;
       padding: 0;
@@ -32,6 +35,7 @@
       justify-content: center;
       gap: 1rem;
     }
+
     nav a {
       color: white;
       text-decoration: none;
@@ -39,29 +43,35 @@
       border-radius: 4px;
       transition: background 0.3s;
     }
+
     nav a.active,
     nav a:hover {
       background-color: #c08aed;
     }
+
     h2 {
       text-align: center;
       margin-top: 2rem;
       color: #722191;
     }
+
     .profil-wrapper {
+      background-color: #e0e0e0; /* grau */
+      width: 100vw;
+      padding: 40px 20px;
+    }
+
+    .profil-inner {
+      max-width: 960px;
+      margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       gap: 30px;
-      margin: 40px auto;
-      max-width: 850px;
       text-align: left;
-      
-      background-color: #e0e0e0; /* hellgrau */
-      padding: 20px;
-      border-radius: 12px;
     }
+
     .profil-bild img {
       width: 300px;
       max-width: 100%;
@@ -69,11 +79,13 @@
       border-radius: 12px;
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     }
+
     .profil-text {
       max-width: 500px;
     }
+
     @media (max-width: 700px) {
-      .profil-wrapper {
+      .profil-inner {
         flex-direction: column;
         text-align: center;
       }
@@ -103,8 +115,11 @@
 
   <main class="container">
     <h2>Lebenslauf</h2>
+  </main>
 
-    <section class="profil-wrapper">
+  <!-- Grauer Abschnitt mit Bild und Text -->
+  <section class="profil-wrapper">
+    <div class="profil-inner">
       <div class="profil-bild">
         <img src="bild.jpg" alt="Dr. Philip Roth">
       </div>
@@ -112,11 +127,13 @@
         <p><strong>Dr. Philip Roth</strong><br />
         Postdoktorand für Digitalität & Soziale Transformation<br />
         Technische Hochschule Köln<br />
-        philip.roth@th-koeln.de | 
+        philip.roth@th-koeln.de |
         <a href="https://orcid.org/0000-0001-5213-3348" target="_blank" rel="noopener">ORCID</a></p>
       </div>
-    </section>
+    </div>
+  </section>
 
+  <main class="container">
     <h3>Über mich</h3>
     <p>Geboren 1985 in Darmstadt · Verheiratet, eine Tochter · Wohnhaft in Groß-Gerau</p>
 
@@ -162,6 +179,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
