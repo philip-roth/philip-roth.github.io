@@ -77,29 +77,35 @@ footer {
   font-size: 0.9rem;
 }
 
-.lebenslauf-container {
+.polaroid-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   gap: 30px;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.cv-card {
+  max-width: 500px;
   margin: 60px auto;
-  max-width: 900px;
-}
-
-.profilbild-links {
-  width: 180px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  flex-shrink: 0;
-}
-
-.lebenslauf-text {
-  flex: 1;
-  min-width: 250px;
   text-align: center;
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+.cv-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.cv-card h2 {
+  margin: 0 0 10px;
+}
+
 
 
 
