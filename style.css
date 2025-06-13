@@ -19,9 +19,9 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 0 20px;
 }
 
 header {
@@ -60,7 +60,8 @@ nav a {
   transition: background 0.3s;
 }
 
-nav a:hover, nav a.active {
+nav a:hover,
+nav a.active {
   background-color: var(--accent);
 }
 
@@ -77,6 +78,8 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Layouts und Bildblöcke */
+
 .cv-layout {
   display: flex;
   gap: 40px;
@@ -84,12 +87,14 @@ footer {
   margin: 60px 0;
   flex-wrap: wrap;
 }
+
 .cv-photo img {
   width: 360px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
+
 .cv-text {
   flex: 1;
   min-width: 250px;
@@ -102,29 +107,34 @@ footer {
   margin: 40px 0;
   border-radius: 8px;
 }
+
 .image-round {
   text-align: center;
   margin: 50px 0;
 }
+
 .image-round img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .image-left {
   display: flex;
   align-items: center;
   gap: 20px;
   margin: 40px 0;
 }
+
 .image-left img {
   width: 250px;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+
 .forschung-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -142,6 +152,7 @@ footer {
   gap: 30px;
   margin-top: 40px;
 }
+
 .lebenslauf-header {
   display: flex;
   justify-content: space-between;
@@ -160,11 +171,7 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+/* Profil-Block auf der Lebenslauf-Seite */
 
 .profil-block {
   display: flex;
@@ -189,6 +196,7 @@ footer {
 }
 
 /* Mobil-Ansicht */
+
 @media (max-width: 700px) {
   .profil-block {
     flex-direction: column;
@@ -204,17 +212,5 @@ footer {
   .profil-text {
     text-align: center;
   }
-
-  .image-round {
-  text-align: center;
-  margin: 50px 0;
-}
-  
-.image-round img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
