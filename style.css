@@ -134,18 +134,28 @@ footer {
   margin-top: 40px;
 }
 
-.forschung-text {
-  flex: 1;
-  min-width: 300px;
+.lebenslauf-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.forschung-bild {
+.lebenslauf-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.lebenslauf-bild {
   flex-shrink: 0;
 }
 
-.forschung-bild img {
+.lebenslauf-bild img {
   width: 200px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
