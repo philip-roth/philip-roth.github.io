@@ -68,7 +68,9 @@ nav a.active {
 main h2 {
   color: var(--primary);
   margin-top: 1.5rem;
+  text-align: center;
 }
+
 
 footer {
   background: #ddd;
