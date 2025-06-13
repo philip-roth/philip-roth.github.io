@@ -125,3 +125,27 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+.forschung-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.forschung-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.forschung-bild {
+  flex-shrink: 0;
+}
+
+.forschung-bild img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
