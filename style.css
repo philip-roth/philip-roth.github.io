@@ -120,7 +120,6 @@ footer {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  object-position: center;
 }
 
 .image-left {
@@ -169,39 +168,31 @@ footer {
 /* Profil-Bereich */
 
 .profil-wrapper {
-  background-color: #f0f0f0;
+  background-color: #e0e0e0;
+  width: 100%;
   padding: 40px 20px;
 }
 
 .profil-inner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
-}
-
-.profil-bild {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: left;
 }
 
 .profil-bild img {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .profil-text {
-  flex: 1;
-  min-width: 250px;
   max-width: 500px;
 }
 
@@ -221,14 +212,11 @@ footer {
   }
 
   .profil-bild img {
-    width: 160px;
-    height: 160px;
+    width: 120px;
     margin-right: 0;
     margin-bottom: 15px;
   }
 }
-
-/* Forschung und Konferenzen */
 
 .forschung-wrapper {
   display: flex;
@@ -251,7 +239,6 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 .textblock-image {
   display: block;
   max-width: 100%;
@@ -261,4 +248,3 @@ footer {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-}
