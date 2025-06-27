@@ -184,8 +184,8 @@ footer {
 }
 
 .profil-bild img {
-  width: 150px;
-  max-width: 50%;
+  width: 175px;
+  max-width: 75%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -211,9 +211,9 @@ footer {
   }
 
   .profil-bild img {
-    width: 60px;
+    width: 80px;
     margin-right: 0;
-    margin-bottom: 7,5px;
+    margin-bottom: 10px;
   }
 }
 
