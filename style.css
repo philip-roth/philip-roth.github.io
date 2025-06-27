@@ -185,7 +185,7 @@ footer {
 
 .profil-bild img {
   width: 175px;
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
